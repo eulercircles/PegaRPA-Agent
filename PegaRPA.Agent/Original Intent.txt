@@ -1,6 +1,0 @@
-﻿
-The original intent was to have a Windows Service always running, monitoring OpenSpan runtime for unexpected exit. When that happened, it would send an alert through email.
-
-The Agent also checks a directory of choice for new Runtime updates and, if a new one becomes available, it will transition to a state where it installs the new runtime version.
-
-Really, this whole thing was borne out of bad organizational practices. The runtime exits should have been investigated through the logs, as they were always caused by poor RPA development. The difficulty of getting the logs, getting time to troubleshoot and fix errors, incompetence regarding troubleshooting, re-deploying fixes, etc... is why this seemed necessary. However, there were ways to fix all these things that didn't require a program.
