@@ -1,1 +1,0 @@
-﻿In some places there is poor separation of concerns. There is no clear reason why states should be responsible for sending emails. They should only represent states that the agent can be in.
